@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         // tugas recycle view
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_main);
         recylerView = findViewById(R.id.recyclerView);
         s1 = getResources().getStringArray(R.array.service);
